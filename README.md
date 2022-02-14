@@ -15,4 +15,4 @@ https://www.youtube.com/playlist?list=PLIYzsTnFhywyjBon1_tE4ZGVzXAx5FpWr
 
 link zum Github: https://github.com/simpleclub/startup_teens_machine_learning
 
-Jaman!
+Jaman!!!
