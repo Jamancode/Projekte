@@ -1,5 +1,5 @@
 # Projekte
-Verschiedene Projekte, spielen mit Pytohn
+Verschiedene Projekte, spielen mit Python
 
 Spaß mit Happy_code
 
