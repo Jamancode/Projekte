@@ -5,14 +5,16 @@
 # Skalarprodukut = Multipikation + Addition
 # b = bias (voreingenmmenheit) hängt nicht vom eingenagssignal ab
 
-# Operatoren der Arithmetik
+
+#------------------------------
+# Operatoren der Arithmetik:
 
 # Addition -> y = x[0] + x[1]
 # Subtraktion -> y = x[0] - x[1]
 # Multiplikation -> y = x[0] * w[0]
 # Division -> y = x[0] / w[0]
 
-# Operationen auf Vaiablen
+# Operationen auf Vaiablen:
 # x[0] += 2
 # x[0] -= 2
 # x[0] *= 2
@@ -24,6 +26,48 @@
 # Modulo Operator (rest) -> y = x[0] % 5
 # hiemit kann man         print (y)
 # grande oder ungrade     2.92655435
+
+# Vergleichendeoperatoren:
+
+# (größer)
+# hund = y > 1  "also wenn y größer 1 wäre also = True"
+
+# (kleiner)
+# hund = y < 1 "also wenn y kleiner als 1 wäre"
+
+# (gleich)
+# hund = y == 1  "also wenn y gleich 1 wäre"
+
+# (ungleich)
+# hund = y != 1 "also wenn y ungleich 1 wäre"
+
+# (größergleich)
+# hund = y >= 1 "wenn y größer oder gleich 1 wäre"
+
+# (kleinergleich)
+# hund = y <= 1 "wenn y kleiner und gleich (genau) 1 wäre"
+
+# Gilt auch für Variablen hier Beispiel (größergleich)
+# hund = y >= x "wenn y größer oder gleich x wäre"
+
+# Boolsche Operatoren:
+#Verarbeiten mehrere Booleans zu eiem booleschen Wert!
+
+# and       hund = y >= 0 and y != 0  " hier wäre y >= 0 True wenn y = 0 als gegeben wäre und y != 0 wäre False also ist die gesammte gleich und False"
+
+# or        hund = y >= 0 or y != 0  " hier wäre y >= 0 True wenn y = 0 als gegeben wäre oder y != 0 wäre False also ist die gesammte gleich und True"
+
+# not    hund = not y == 0 <-> y != 0  " heir wenn y == 0 True ist wäre das ergebniss hier False"
+
+#Logische Operatoren
+
+# is -> == " also print(5 is 6) -> Flase wäre das selbe wie print(5 == 6) -> Flase
+#  is not -> == " also print(5 is not 6) -> True wäre das selbe wie print(5 != 6) -> True
+
+# in "prüft ob ein wert IN einer funktion oder menge vorhanden ist; also print(0 in feature) -> True
+
+
+
 
 #Strings
 # kann man nur addieren
