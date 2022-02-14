@@ -3,7 +3,7 @@ Verschiedene Projekte, spielen mit Python
 
 Spaß mit Happy_code
 
-Erklärung zu Pychsrm und git
+Erklärung zu Git in Pycharm von Ingo Janssen
 
 https://www.youtube.com/watch?v=KVhTyJe4nss
 
