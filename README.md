@@ -8,7 +8,8 @@ Erklärung zu Pychsrm und git
 https://www.youtube.com/watch?v=KVhTyJe4nss
 
 # 1. KI_bastelei:
-Python einsteiger Projekt von "Startup Teens" sehr gut erklärt, Einfache KI / ML Grundlagen am Beispiel des Perzeptrons!
+<p>Python einsteiger Projekt von "Startup Teens" sehr gut erklärt, <br>
+Einfache KI / ML Grundlagen am Beispiel des Perzeptrons! </p>
 
 https://www.youtube.com/playlist?list=PLIYzsTnFhywyjBon1_tE4ZGVzXAx5FpWr
 
