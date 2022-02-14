@@ -1,9 +1,37 @@
 # https://www.youtube.com/watch?v=k7rxRtMVskc
 
-#funtion des Perzeptron w * x + b
+# funtion des Perzeptron w * x + b
 
-#Skalarprodukut = Multipikation + Addition
-# b = bias (voreingenmmenheit) hängt nicht vom eingenagssignla ab
+# Skalarprodukut = Multipikation + Addition
+# b = bias (voreingenmmenheit) hängt nicht vom eingenagssignal ab
+
+# Operatoren der Arithmetik
+
+# Addition -> y = x[0] + x[1]
+# Subtraktion -> y = x[0] - x[1]
+# Multiplikation -> y = x[0] * w[0]
+# Division -> y = x[0] / w[0]
+
+# Operationen auf Vaiablen
+# x[0] += 2
+# x[0] -= 2
+# x[0] *= 2
+# x[0] /= 2
+
+# Exponention opperator -> x[0]² wäre y = x[0] **2
+# Abgerundete Division -> x[0] = 37.92655435
+#                         x[0] // 2 = 18
+# Modulo Operator (rest) -> y = x[0] % 5
+# hiemit kann man         print (y)
+# grande oder ungrade     2.92655435
+
+#Strings
+# kann man nur addieren
+# print('man kann stings ' + 'auch addieren')
+# zahlen und stings kombinieren
+# print('Der wert von x[0] ist' + str(x[0]))
+# Der wert von x[0] ist 37.92655435
+#----------------------------------------------------------
 
 # w1*x1 + w2*x2 + b
 
@@ -76,3 +104,5 @@ print(y3)
 print(x + w)
 
 print('balalal 1' + '    ' + str(x[0]))
+
+
