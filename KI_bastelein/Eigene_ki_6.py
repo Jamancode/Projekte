@@ -83,4 +83,3 @@ plt.ylabel('Breite in cm')
 
 plt.scatter(feature[:,1], feature[:,2], c=label)
 plt.show()
-
