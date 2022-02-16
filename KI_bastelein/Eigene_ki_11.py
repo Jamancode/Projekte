@@ -56,7 +56,7 @@ w = np.random.rand(3)
 # oberer Teil derPerzeptron Funktion
 # w * x + b
 # also Ausgeschrieben
-#y = w[0] * x[0] + w[1] * x[1] + w[2] * x[2] 
+#y = w[0] * x[0] + w[1] * x[1] + w[2] * x[2] 3
 
 # Skalarprodukt
 y = np.dot(w, x)
