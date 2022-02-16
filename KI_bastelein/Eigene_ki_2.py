@@ -35,4 +35,4 @@ farbe = "Braun"       # String  = str
 beine = int(4.6)      # int rundet immer ab so das das ergebniss 4 sein wird.
 print(beine)
 
-# github mit code beispielen " https://github.com/simpleclub/startup_teens_machine_learning "
+# github mit code beispielen " https://github.com/simpleclub/startup_teens_machine_learning ".
