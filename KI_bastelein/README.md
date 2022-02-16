@@ -20,4 +20,7 @@ link zum Github: https://github.com/simpleclub/startup_teens_machine_learning
 10. Funktion um den Mittelwert einer Liste mit vielen Werten zu erhalten: <br/><br/>
 11. Skalarprodukt: <br> Perzeptron Funktion auflösen (Funktion) <br/><br/>
 12. Wie If, Elif, Else Funtioniert und wie man einen Wert mit Return zurück gibt. <br/><br/>
-13. 
+13. Visualisierungs Funtion von Perzeptron Teil 1: (Da ich es nicht richtig nachvollziehen konnte, habe ich eine Zwischen Visualisierung gemacht und ein paar kleine fehler behoben) <br/><br/>
+14. Visualisierungs Funtion von Perzeptron Teil 2: ( Das einzeichnen der Linie mit der Grundfunktion und der anpassung auf das Perzeptron hat mich sehr leiden lassen, zumal die "lösung" auf der gibhub seite von "Startup_teens", war fehlerhaft und hat die Punkte Horizontal dargestellt, womit die Linie natürlich nicht klar kan und nur ein stück am Boden war. Hab ein Kommentar hinzugefügt. ) <br/><br/>
+15. Visualisierungs Funtion von Perzeptron Teil 3: (orginal version von "Startup Teens" zum gegen checken) <br/><br/>
+16. 
