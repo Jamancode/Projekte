@@ -1,5 +1,5 @@
 #https://www.youtube.com/watch?v=GFUz1bENOUM&list=PLIYzsTnFhywyjBon1_tE4ZGVzXAx5FpWr&index=5
-# Visualisierungs-Funtion von Perzeptron Teil 3 (Orginal version von "Starup Teens" Grafik: "Orginal_plt_PT17")
+# Visualisierungs-Funtion von Perzeptron Teil 3 (Original version von "Starup Teens" Grafik: "Original_plt_PT17")
 
 import matplotlib.pyplot as plt
 import numpy as np
