@@ -6,7 +6,7 @@
 # Trainingsdaten
 # mit Feature + Ausgabe
 # Mit sogenannten Label also in deim Beispiel "Hund" oder "nicht Hund"
-# immer nur ein Label pro Bild!!!
+# immer nur ein Label pro Bild!!! 
 
 
 beine = 4             # Integer = int
