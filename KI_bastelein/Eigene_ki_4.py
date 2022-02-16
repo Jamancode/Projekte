@@ -1,4 +1,11 @@
 # Strings konvertieren
+a = "Hunde"
+b = "kuchen"
+c = " "
+d = 42
+e = a + b + c + str(d)
+print(e)
+
 # im beispiel lable aus Hund und nicht Hund 1 und 0 zu machen da Perzeptron nur mit zahlen klar kommt.
 import numpy as np
 
@@ -30,6 +37,10 @@ feature = np.array([data['beine'], data['groesse'], data['breite']])
 avg = np.average(data['breite'])
 
 print(feature)        # hier sehen wir das wir listen in einer liste ausgeben können.
-print(feature.shape)  # Hier sehen wir die verkürze Form hier 3 für Zeilen und 5 Spalten
+print("listen in einer liste")
+print(feature.shape)  # Hier sehen wir die verkürze Form hier 3 für Zeilen und 5 Spalten (Inhalt der Liste, wie viele Zeilen und Spalten sie hat)
+print("verkürze Form hier 3 für Zeilen und 5 Spalten")
 print(feature.T)      # Hier wird "tranzponiert" das bedeutet das Zeilen und Spalten vertauscht werden.
+print("Zeilen und Spalten werden vertauscht")
 print(avg)            # averge erzeugt den  mittelwert aus einer Liste
+print("mittelwert einer Liste")
