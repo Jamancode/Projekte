@@ -76,4 +76,4 @@
 
 # Leitlinie der EU "ETHIK-LEITLINIEN FÜR EINE VERTRAUENSWÜRDIGE KI" link zum dokument =(' https://ec.europa.eu/newsroom/dae/document.cfm?doc_id=60425 ')
 
-#___________________
+#____________________
