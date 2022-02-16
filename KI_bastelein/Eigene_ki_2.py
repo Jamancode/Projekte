@@ -23,7 +23,7 @@
 # Perzeptron Eingabe (Perzeptron nimmt nur reelle Zahlen als Eingabe! -> Bilder in Zahlen formantieren)
 # definiert in  "Features" (Merkmale = Statistiken = Features = charakteristiken) zb. Anzahl der beine, größe, breite oder farbe.
 # Beispiel für Hund mit erläuterung zu Datentypen
-# Datentypten sind Kategorien von Werten, die in einer Progammiersprache verschieden genutzt werden können und sogar verschieden gespeichert werden. 
+# Datentypten sind Kategorien von Werten, die in einer Progammiersprache verschieden genutzt werden können und sogar verschieden gespeichert werden.
 
 
 beine = 4             # Integer = int
