@@ -3,6 +3,10 @@ Verschiedene Projekte, spielen mit Python
 
 Spaß mit Happy_code
 
+Einrichtung der IDE (Progammierungebung) Pycarm von Ingo Janssen
+
+https://www.youtube.com/watch?v=iaWF8_5ftBk
+
 Erklärung zu Git in Pycharm von Ingo Janssen
 
 https://www.youtube.com/watch?v=KVhTyJe4nss
