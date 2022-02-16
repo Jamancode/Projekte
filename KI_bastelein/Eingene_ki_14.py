@@ -1,6 +1,6 @@
 
 #https://www.youtube.com/watch?v=GFUz1bENOUM&list=PLIYzsTnFhywyjBon1_tE4ZGVzXAx5FpWr&index=5
-# Visualisierungs-Funtion von Perzeptron Teil 2 (Grafik: "Gefixt_PT17")
+# Visualisierungs-Funtion von Perzeptron Teil 2 (Grafik: "Gefixt_plt_PT17")
 
 import matplotlib.pyplot as plt
 import numpy as np
