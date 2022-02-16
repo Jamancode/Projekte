@@ -1,6 +1,7 @@
-#Wie liest man Daten aus?
+
+# Wie liest man Daten aus?
 # Feature und Lable sollten gleichzeitig erstellt werden.
-#in dem Datensatz sind die ersten 21 zeilen Hunden und der Rest andere Tiere.
+# in dem Datensatz sind die ersten 21 zeilen Hunden und der Rest andere Tiere.
 # Werte von geordneten Mengen werden über Indizes ausgelesen. Also um das erste Element der Liste zubekommen print(feature[0])
 
 import numpy as np
