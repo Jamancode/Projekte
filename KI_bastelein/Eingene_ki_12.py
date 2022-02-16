@@ -66,7 +66,7 @@ hund = y > 0 and y != 2
 hund = perzeptron(w, x)
 print(hund)
 
-hund = False
+hund = True
 
 if hund:
     print("Die Bedingung ist True")
@@ -91,10 +91,17 @@ def perzeptron(w, x):
 
 print(perzeptron(w, x))
 
+hund = perzeptron(w, x)
+if hund == 1:
+    print("Das ist ein Hund!1")
+elif hund == 0:
+    print("Das ist kein Hund.1")
 
 
-
-
+if perzeptron(w, x):
+    print("Das ist ein Hund!2")
+else:
+    print("Das ist kein Hund.2")
 
 
 
