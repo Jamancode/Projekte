@@ -1,5 +1,6 @@
 
 #https://www.youtube.com/watch?v=GFUz1bENOUM&list=PLIYzsTnFhywyjBon1_tE4ZGVzXAx5FpWr&index=5
+# Visualisierungs-Funtion von Perzeptron Teil 2
 
 import matplotlib.pyplot as plt
 import numpy as np
@@ -53,51 +54,13 @@ feature = np.array([[4.0, 37.92655435, 23.90101111],
 feature = np.concatenate((feature, np.ones(43).reshape(43,1)), axis=1)
 print(feature[0:3,:])
 
-label = np.concatenate((np.ones(21), np.zeros(22)))
-
-w = np.random.rand(feature.shape[1])
-
-
-
-
-
-
-def visualize(feature, labels, w):
-    plt.title('Trainingsdaten')
-    plt.xlabel('Grösse [cm]')
-    plt.ylabel('Länge [cm]')
-    plt.scatter(feature[:,1], feature[:,2], c=labels)
-
-    if w[1] != 0:
-        x0 = np.array([min(feature[:,0]), max(feature[:,1])])
-        x1 = -(w[0] * x0 + w[2]) / w[1]
-        plt.plot(x0, x1)
-
-    plt.show()
-
-
-x = feature[0]
-label = labels [0]
-
-ausgabe = perzeptron(w, x)
-
-def perzeptron(w, x):
-    if np.dot(w, x) > 0:
-        return 1.0
-    else:
-        return 0.0
-
-
-if ausgabe == label:
-    pass
-elif ausgabe == 0 and label == 1:
-    w += x
-elif ausgabe == 1 and label == 0:
-    w -= x
-
-
-
-
+labels = np.concatenate((np.ones(21), np.zeros(22)))
+print(labels.shape)
+# WoW nerviger fehler!!! im code auf github!
+#https://github.com/simpleclub/startup_teens_machine_learning/blob/master/was_ist_die_perzeptron_lernregel.ipynb
+# bei plt.scater(feature[:,0], feature[:,1], c=labels // das passt nicht
+# und x0 = np.array([min(feature[:, 0]), max(feature[:, 1])])  // wird auch an der falschen stelle begonnen
+# so wie es jetzt ist passt es und ich ready für den einbau der Perzeptron Lernregel
 
 def visualize(feature, labels, w, x=None, w_old=None):
     # Hier werden x und w_old als None definiert, sodass man sie beim Aufrufen nicht
@@ -108,10 +71,10 @@ def visualize(feature, labels, w, x=None, w_old=None):
     plt.title('Trainingsdaten')
     plt.xlabel('Grösse [cm]')
     plt.ylabel('Länge [cm]')
-    plt.scatter(feature[:, 0], feature[:, 1], c=labels)
+    plt.scatter(feature[:, 1], feature[:, 2], c=labels)
 
     # Linie
-    x0 = np.array([min(feature[:, 1]), max(feature[:, 0])])
+    x0 = np.array([min(feature[:, 0]), max(feature[:, 1])])
     if w[1] != 0:
         x1 = -(w[0] * x0 + w[2]) / w[1]
         plt.plot(x0, x1, label='Gewichte')
@@ -134,10 +97,11 @@ def visualize(feature, labels, w, x=None, w_old=None):
     plt.legend(loc='upper right', bbox_to_anchor=(1.1, 1.1))
     plt.show()
 
-
-
 np.random.seed(5) # damit die 'zufälligen' Zahlen immer gleich sind
 
+# gewichte zufällig initialsieren
+w = np.random.rand(feature.shape[1])
+visualize(feature, labels, w)
 
-visualize(feature, label, w)
+
 
