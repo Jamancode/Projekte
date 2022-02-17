@@ -1,6 +1,6 @@
 
 #https://www.youtube.com/watch?v=5xSbiRHUnZc&list=PLIYzsTnFhywyjBon1_tE4ZGVzXAx5FpWr&index=4
-#For-Schleife-Teil 1 (Range, Enumerate, Zip)
+#For-Schleife-Teil 1 (Range, Enumerate, Zip) 
 
 #for x in feature:       würde einmal die ganze liste durch itrerieren.
   #  print(x)
