@@ -55,9 +55,10 @@ x = np.insert(x,2,1)
 #w = np.zeros(3)
 w = np.random.rand(3)
 
+
 def linie_plotten(feature, labels, w):
 
-  x0 = np.array([0, max(feature[:,1])])
+  x0 = np.array([min(feature[:,0]), max(feature[:,1])])
   x1 = -(w[0] * x0 + w[2]) / w[1]
 
   plt.scatter(feature[:,1], feature[:,2], c=labels)
