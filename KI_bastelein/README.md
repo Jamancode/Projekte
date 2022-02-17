@@ -26,3 +26,4 @@ link zum Github: https://github.com/simpleclub/startup_teens_machine_learning
 16. For-Schleife-Teil 1 (Range, Enumerate, Zip) <br/><br/>
 17. For-Schleife-Teil 2 (Fehler in Klassifikator finden) <br/><br/>
 18. WHILE Schleifen unterschied zu der FOR Schleifen & PLOTORAMA <br> Funtion genauer Definieren <br> Training der Daten <br> While-Schleife <br> Perzeptron Lernregel <br> Daten Normalisieren <br> Zusatz Aufgabe "Datensatz erstellen" <br/><br/> 
+19. 
