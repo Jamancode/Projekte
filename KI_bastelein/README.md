@@ -25,4 +25,4 @@ link zum Github: https://github.com/simpleclub/startup_teens_machine_learning
 15. Visualisierungs Funtion von Perzeptron Teil 3: "Grafik "Gefixt_plt_PT17" ( Das einzeichnen der Linie mit der Grundfunktion und der anpassung auf das Perzeptron hat mich sehr leiden lassen, zumal die "lösung" auf der gibhub seite von "Startup_teens", war fehlerhaft und hat die Punkte Horizontal dargestellt, womit die Linie natürlich nicht klar kan und nur ein stück am Boden war. Hab ein Kommentar hinzugefügt. ) <br/><br/>
 16. For-Schleife-Teil 1 (Range, Enumerate, Zip) <br/><br/>
 17. For-Schleife-Teil 2 (Fehler in Klassifikator finden) <br/><br/>
-18. WHILE Schleifen unterschie FOR Schleifen & PLOTORAMA <br> Funtion genauer Definieren <br> Training der Daten <br> While-Schleife <br> Perzeptron Lernregel <br> Daten Normalisieren <br> Zusatz Aufgabe "Datensatz erstellen" <br/><br/> 
+18. WHILE Schleifen unterschied zu der FOR Schleifen & PLOTORAMA <br> Funtion genauer Definieren <br> Training der Daten <br> While-Schleife <br> Perzeptron Lernregel <br> Daten Normalisieren <br> Zusatz Aufgabe "Datensatz erstellen" <br/><br/> 
